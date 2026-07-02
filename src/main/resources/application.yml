@@ -33,6 +33,8 @@ jwt:
 
 server:
   port: 8080
+  # 修正 Cloud Run Proxy 設定
+  forward-headers-strategy: framework
 
 logging:
   level:
