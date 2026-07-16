@@ -6,7 +6,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
- * 密碼加密設定
+ * 密碼加密設定(統一管理與重複利用)
  */
 @Configuration
 public class PasswordConfig {
